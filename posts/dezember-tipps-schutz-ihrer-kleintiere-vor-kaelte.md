@@ -1,13 +1,14 @@
 ---
 title: "Dezember-Tipps: Schutz Ihrer Kleintiere vor Kälte"
 date: "2025-12-08T18:51:06.000Z"
-modified: "2025-12-08T18:56:30.000Z"
+modified: "2026-02-20T20:46:38.000Z"
 status: "publish"
 type: "post"
 slug: "dezember-tipps-schutz-ihrer-kleintiere-vor-kaelte"
 excerpt: "Die Tage werden kürzer, die Nächte frostiger – für Kleintiere wie Kaninchen, Meerschweinchen oder Vögel beginnt jetzt eine herausfordernde Zeit. Damit Ihre tierischen Freunde gesund und glücklich durch die kalte Jahreszeit kommen, haben wir einige wichtige Tipps für Sie zusammengestellt. 1. Das Gehege: Schutz und Komfort Wenn Ihre Tiere im Außenbereich leben, ist ein gut [&hellip;]"
 categories:
   - 10
+published: false
 ---
 
 Die Tage werden kürzer, die Nächte frostiger – für Kleintiere wie Kaninchen, Meerschweinchen oder Vögel beginnt jetzt eine herausfordernde Zeit. Damit Ihre tierischen Freunde gesund und glücklich durch die kalte Jahreszeit kommen, haben wir einige wichtige Tipps für Sie zusammengestellt.

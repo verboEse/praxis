@@ -385,6 +385,88 @@ main {
   line-height: 1.6;
 }
 
+/* Carousel Controls */
+.carousel-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.posts-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-post {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.carousel-post.active {
+  display: grid;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.carousel-btn {
+  background: #8f3131;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background: #6b2424;
+}
+
+.carousel-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #8f3131;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.carousel-dot.active {
+  background: #8f3131;
+}
+
 .post-preview {
   background: white;
   padding: 1.5rem;

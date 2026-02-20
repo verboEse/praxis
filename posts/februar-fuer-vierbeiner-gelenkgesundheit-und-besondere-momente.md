@@ -1,7 +1,7 @@
 ---
 title: "Februar für Vierbeiner: Gelenkgesundheit und besondere Momente"
 date: "2026-01-31T11:00:00.000Z"
-modified: "2025-12-08T18:56:03.000Z"
+modified: "2026-02-20T20:46:38.000Z"
 status: "publish"
 type: "post"
 slug: "februar-fuer-vierbeiner-gelenkgesundheit-und-besondere-momente"
@@ -9,6 +9,7 @@ excerpt: "Der Februar steht vor der Tür, und mit ihm kommen nicht nur frostige 
 categories:
   - 10
 featured_media: 227
+published: true
 ---
 
 Liebe Tierfreunde in Versmold,

@@ -8,28 +8,39 @@ title: Kleintierpraxis Versmold
     <section class="latest-posts">
       <h2>Aktuelle Beiträge</h2>
       
-      <div class="posts-carousel">
-        {% set featuredPosts = collections.posts | limit(1) %}
-        {% for post in featuredPosts %}
-          <article class="carousel-post">
-            <div class="carousel-image">
-              {% if post.data.featured_media %}
-                {% set mediaItem = media | find(post.data.featured_media) %}
-                {% if mediaItem %}
-                  <img src="/assets/images/{{ mediaItem.url | basename }}" alt="{{ post.data.title }}">
+      <div class="carousel-wrapper">
+        <div class="posts-carousel">
+          {% for post in collections.posts %}
+            <article class="carousel-post" data-slide-index="{{ loop.index0 }}">
+              <div class="carousel-image">
+                {% if post.data.featured_media %}
+                  {% set mediaItem = media | find(post.data.featured_media) %}
+                  {% if mediaItem %}
+                    <img src="/assets/images/{{ mediaItem.url | basename }}" alt="{{ post.data.title }}">
+                  {% endif %}
                 {% endif %}
-              {% endif %}
-            </div>
-            <div class="carousel-content">
-              <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-              <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>
-              {% if post.data.excerpt %}
-                <p>{{ post.data.excerpt }}</p>
-              {% endif %}
-              <a href="{{ post.url }}" class="read-more">Weiterlesen →</a>
-            </div>
-          </article>
-        {% endfor %}
+              </div>
+              <div class="carousel-content">
+                <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>
+                {% if post.data.excerpt %}
+                  <p>{{ post.data.excerpt }}</p>
+                {% endif %}
+                <a href="{{ post.url }}" class="read-more">Weiterlesen →</a>
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+        
+        <div class="carousel-controls">
+          <button class="carousel-btn carousel-prev" aria-label="Vorheriger Beitrag">❮</button>
+          <button class="carousel-btn carousel-next" aria-label="Nächster Beitrag">❯</button>
+          <div class="carousel-dots">
+            {% for post in collections.posts %}
+              <button class="carousel-dot" data-dot-index="{{ loop.index0 }}" aria-label="Beitrag {{ loop.index }} anzeigen"></button>
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </section>
 

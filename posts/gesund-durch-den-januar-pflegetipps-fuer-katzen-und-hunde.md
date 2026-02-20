@@ -1,7 +1,7 @@
 ---
 title: "Gesund durch den Januar: Pflegetipps für Katzen und Hunde"
 date: "2026-01-01T07:55:00.000Z"
-modified: "2025-12-08T18:55:56.000Z"
+modified: "2026-02-20T20:46:38.000Z"
 status: "publish"
 type: "post"
 slug: "gesund-durch-den-januar-pflegetipps-fuer-katzen-und-hunde"
@@ -9,6 +9,7 @@ excerpt: "Liebe Tierfreunde, herzlich willkommen zum ersten Monats-Beitrag des J
 categories:
   - 10
 featured_media: 143
+published: false
 ---
 
 Liebe Tierfreunde,
