@@ -16,12 +16,10 @@ Lernen Sie das Team der Kleintierpraxis Versmold kennen.
 <!-- Team-Galerie: Bildpfade hier einfügen, wenn Bilder verfügbar sind -->
 <div class="team-gallery">
   <!-- Team-Mitglied 1 -->
-  <!-- Diesen Kommentar entfernen, um das Bild zu aktivieren!!!
   <a href="#team1" class="gallery-thumb">
-    <img src="/assets/images/placeholder-team1.jpg" alt="Team-Mitglied 1">
+    <img src="/assets/images/DSC_8551.jpg" alt="Anne Dreyer-Ciszewski">
     <span class="caption">Name 1</span>
   </a>
-  --> 
     <!-- Weitere Team-Mitglieder können hier hinzugefügt werden -->
 </div>
 
