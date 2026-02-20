@@ -1,54 +1,41 @@
 /**
  * Submenu accessibility handler
- * Manages aria-expanded and aria-hidden attributes for keyboard navigation
+ * Manages aria-expanded for keyboard navigation.
+ * CSS display:none already removes hidden submenus from both tab order
+ * and the accessibility tree — aria-hidden is not needed on display:none elements.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   const menuItems = document.querySelectorAll('.has-submenu');
 
   menuItems.forEach(item => {
-    const link = item.querySelector('a');
+    const link = item.querySelector('a[aria-expanded]');
     const submenu = item.querySelector('.submenu');
 
     if (!link || !submenu) return;
 
-    // Show/hide submenu on focus
-    link.addEventListener('focus', () => {
-      link.setAttribute('aria-expanded', 'true');
-      submenu.setAttribute('aria-hidden', 'false');
-    });
+    // Update aria-expanded to reflect open state
+    function setExpanded(expanded) {
+      link.setAttribute('aria-expanded', String(expanded));
+    }
 
-    // Hide submenu on blur (if focus leaves the parent)
-    item.addEventListener('mouseleave', () => {
-      link.setAttribute('aria-expanded', 'false');
-      submenu.setAttribute('aria-hidden', 'true');
-    });
+    link.addEventListener('focus', () => setExpanded(true));
 
-    item.addEventListener('focusout', (e) => {
-      // Only hide if focus doesn't move to another element within the menu item
+    item.addEventListener('mouseleave', () => setExpanded(false));
+
+    item.addEventListener('focusout', () => {
+      // Defer so focus can move within the submenu first
       setTimeout(() => {
         if (!item.contains(document.activeElement)) {
-          link.setAttribute('aria-expanded', 'false');
-          submenu.setAttribute('aria-hidden', 'true');
+          setExpanded(false);
         }
       }, 0);
     });
 
-    // Show/hide submenu on Enter/Space
-    link.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        const isExpanded = link.getAttribute('aria-expanded') === 'true';
-        link.setAttribute('aria-expanded', !isExpanded);
-        submenu.setAttribute('aria-hidden', isExpanded);
-      }
-    });
-
-    // Close submenu on Escape
+    // Close submenu on Escape, return focus to trigger
     submenu.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
-        link.setAttribute('aria-expanded', 'false');
-        submenu.setAttribute('aria-hidden', 'true');
+        setExpanded(false);
         link.focus();
       }
     });
