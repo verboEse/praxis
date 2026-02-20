@@ -133,6 +133,39 @@ A proper page structure should include these landmark regions:
 
 Screen readers allow users to jump between these landmarks, making navigation much faster.
 
+## Hidden Elements & ARIA Attributes
+
+### Hidden Menus (Submenus)
+
+Hidden submenus should use `aria-hidden="true"` to hide them from screen readers when not visible. The parent toggle button should use `aria-expanded` to indicate state:
+
+**✅ Good:**
+```html
+<button aria-haspopup="true" aria-expanded="false">Menu</button>
+<ul class="submenu" aria-hidden="true">
+  <li><a href="/page1">Page 1</a></li>
+  <li><a href="/page2">Page 2</a></li>
+</ul>
+```
+
+When the submenu becomes visible (via CSS or JavaScript), update:
+```html
+<button aria-expanded="true">Menu</button>
+<ul class="submenu" aria-hidden="false">
+  <!-- Now visible and focusable -->
+</ul>
+```
+
+### Decorative Elements
+
+Decorative elements that add no semantic value should have `aria-hidden="true"`:
+
+**✅ Good:**
+```html
+<span aria-hidden="true">→</span> <!-- Decorative arrow -->
+Meaningful text
+```
+
 ## Resources
 
 - [WAI-ARIA: aria-hidden](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA12)

@@ -126,6 +126,8 @@ header {
   z-index: 250;
 }
 
+/* Show submenu when aria-hidden="false" or on hover/focus */
+.submenu[aria-hidden="false"],
 .has-submenu:hover .submenu,
 .has-submenu:focus-within .submenu {
   display: block;
