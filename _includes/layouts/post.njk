@@ -1,0 +1,86 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="content-wrapper">
+  <main class="main-content">
+    <article class="post">
+      <header class="post-header">
+        <h1>{{ title }}</h1>
+        <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+      </header>
+      
+      <div class="post-content">
+        {{ content | safe }}
+      </div>
+      
+      <footer class="post-footer">
+        <p>Letzte Aktualisierung: {{ modified | readableDate }}</p>
+      </footer>
+    </article>
+
+    <nav class="post-navigation">
+      {% set previousPost = collections.posts | getPreviousCollectionItem %}
+      {% set nextPost = collections.posts | getNextCollectionItem %}
+      
+      {% if previousPost or nextPost %}
+        <div class="nav-links">
+          {% if previousPost %}
+            <a href="{{ previousPost.url }}" class="prev">← {{ previousPost.data.title }}</a>
+          {% endif %}
+          {% if nextPost %}
+            <a href="{{ nextPost.url }}" class="next">{{ nextPost.data.title }} →</a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </nav>
+  </main>
+
+  <aside class="sidebar">
+    <div class="widget contact-widget">
+      <h3>Kontakt</h3>
+      <p class="practice-name">{{ site.title }}</p>
+      <p>{{ site.owner }}</p>
+      <p class="contact-item">
+        <span class="icon icon-location">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+        </span>
+        <span class="contact-text">
+          {{ site.address.street }}<br>
+          {{ site.address.zip }} {{ site.address.city }}
+        </span>
+      </p>
+      <p class="contact-item">
+        <span class="icon icon-phone">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+        </span>
+        <span class="contact-text">
+          <strong>Telefon:</strong><br>
+          <a href="tel:{{ site.contact.phoneRaw }}">{{ site.contact.phone }}</a>
+        </span>
+      </p>
+    </div>
+
+    <div class="widget emergency-widget">
+      <h3>Im Notfall</h3>
+      <p>Wir sind Mitglied des Kleintiernotdienst Kreis Warendorf. Die Notrufnummer ist:</p>
+      <p class="emergency-phone">
+        <strong>0900 / 190 96</strong>
+      </p>
+      <p class="emergency-note">(kostenpflichtig, nicht aus allen Netzen erreichbar)</p>
+    </div>
+
+    <div class="widget latest-posts-widget">
+      <h3>Neueste Beiträge</h3>
+      <ul>
+        {% for post in collections.posts | reverse | limit(5) %}
+          <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+</div>

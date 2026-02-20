@@ -1,0 +1,29 @@
+{
+  "title": "Kleintierpraxis Versmold",
+  "description": "Ihre Tierarztpraxis für Hunde, Katzen und Kleintiere",
+  "owner": "Anne Dreyer-Ciszweski",
+  "address": {
+    "street": "Knetterhauser Straße 26",
+    "zip": "33775",
+    "city": "Versmold"
+  },
+  "contact": {
+    "phone": "(0 54 23) 4 39 56 06",
+    "phoneRaw": "05423-4395606"
+  },
+  "opening_hours": [
+    {
+      "days": "Montag - Freitag",
+      "time": "Nach Vereinbarung"
+    },
+    {
+      "days": "Samstag",
+      "time": "Nach Vereinbarung"
+    }
+  ],
+  "emergency": {
+    "title": "Im Notfall",
+    "phone": "(0 54 23) 4 39 56 06",
+    "phoneRaw": "05423-4395606"
+  }
+}

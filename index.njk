@@ -1,0 +1,108 @@
+---
+layout: layouts/base.njk
+title: Kleintierpraxis Versmold
+---
+
+<div class="content-wrapper">
+  <main class="main-content">
+    <section class="latest-posts">
+      <h2>Aktuelle Beiträge</h2>
+      
+      <div class="posts-carousel">
+        {% set featuredPosts = collections.posts | limit(1) %}
+        {% for post in featuredPosts %}
+          <article class="carousel-post">
+            <div class="carousel-image">
+              {% if post.data.featured_media %}
+                {% set mediaItem = media | find(post.data.featured_media) %}
+                {% if mediaItem %}
+                  <img src="/assets/images/{{ mediaItem.url | basename }}" alt="{{ post.data.title }}">
+                {% endif %}
+              {% endif %}
+            </div>
+            <div class="carousel-content">
+              <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+              <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | readableDate }}</time>
+              {% if post.data.excerpt %}
+                <p>{{ post.data.excerpt }}</p>
+              {% endif %}
+              <a href="{{ post.url }}" class="read-more">Weiterlesen →</a>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="welcome-section">
+      <p>
+        <strong>Herzlich Willkommen</strong> auf unseren Internetseiten!
+      </p>
+      <p>
+        Besuche beim Tierarzt sind im Allgemeinen für Ihr Tier und vielleicht auch für Sie ziemlich aufregend. 
+        Darum möchten wir Ihnen mit dieser Homepage die Gelegenheit geben, unsere Praxis schon vorher etwas <strong>näher kennen zu lernen</strong>.
+      </p>
+      <p>
+        Haustiere, ob Hunde, Katzen, Mäuse, Hasen, Kaninchen, Meerschweinchen oder Vögel, sind unsere treuesten Begleiter, 
+        Spielkameraden und geliebte Familienmitglieder. Die optimale <strong>Vorsorge</strong>, die gründliche <strong>Diagnostik</strong> und die <strong>Behandlung</strong> 
+        sowie eine ausführliche <strong>Beratung</strong> sind für uns selbstverständlich. Die Gesundheit ihrer Tiere liegt uns am Herzen. 
+        Wir kümmern uns gerne um Ihre Haustiere.
+      </p>
+      <img src="/assets/images/pexels-jose-eduardo-lopez-474478-26923889.jpg" alt="Tierarzt mit Hund" class="content-image">
+      <p>
+        Bitte vereinbaren sie nach Möglichkeit im Vorfeld einen <strong>Termin</strong>, um die Wartezeit für Sie und Ihr Tier 
+        so kurz wie möglich zu halten. Kunden ohne vorherige Anmeldung müssen leider mit längeren Wartezeiten rechnen!
+      </p>
+      <p>
+        Im <strong>Notfall</strong> und bei schweren Erkrankungen bieten wir <strong>intensive veterinär-medizinische Versorgung</strong> 
+        mit der Möglichkeit der stationären Unterbringung in unserer Praxis. Bitte beachten Sie, dass der diensthabende Tierarzt 
+        tagsüber normale Sprechzeiten hat und der Nachtdienst eine zusätzliche Belastung ist. Probleme, die am Tag geklärt werden 
+        können, sollten nicht in die Nachtstunden verschoben werden. Im Notdienst kommt mindestens der 2-fache Satz der GOT 
+        (Gebührenordnung für Tierärzte) zur Anwendung.
+      </p>
+      <p>
+        Gerne beraten wir Sie auch, wenn Sie sich einen <strong>Welpen</strong> anschaffen wollen, oder dies bereits getan haben, 
+        wenn es um die ausgewogene <strong>Ernährung</strong> Ihres schon älteren Haustieres geht oder aber bei 
+        <strong>Verhaltensauffälligkeiten</strong>. Sprechen Sie uns an!
+      </p>
+    </section>
+  </main>
+
+  <aside class="sidebar">
+    <div class="widget contact-widget">
+      <h3>Kontakt</h3>
+      <p class="practice-name">{{ site.title }}</p>
+      <p>{{ site.owner }}</p>
+      <p class="contact-item">
+        <span class="icon icon-location">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+        </span>
+        <span class="contact-text">
+          {{ site.address.street }}<br>
+          {{ site.address.zip }} {{ site.address.city }}
+        </span>
+      </p>
+      <p class="contact-item">
+        <span class="icon icon-phone">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="currentColor">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+        </span>
+        <span class="contact-text">
+          <strong>Telefon:</strong><br>
+          <a href="tel:{{ site.contact.phoneRaw }}">{{ site.contact.phone }}</a>
+        </span>
+      </p>
+    </div>
+
+    <div class="widget emergency-widget">
+      <h3>Im Notfall</h3>
+      <p>Wir sind Mitglied des Kleintiernotdienst Kreis Warendorf. Die Notrufnummer ist:</p>
+      <p class="emergency-phone">
+        <strong>0900 / 190 96</strong>
+      </p>
+      <p class="emergency-note">(kostenpflichtig, nicht aus allen Netzen erreichbar)</p>
+    </div>
+  </aside>
+</div>
