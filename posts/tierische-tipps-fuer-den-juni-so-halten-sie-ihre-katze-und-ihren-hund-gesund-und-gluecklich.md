@@ -9,7 +9,7 @@ excerpt: "Der Juni ist eine aufregende Zeit für Haustiere und ihre Besitzer, da
 categories:
   - 10
 featured_media: 146
-published: true
+published: false
 ---
 
 Der Juni ist eine aufregende Zeit für Haustiere und ihre Besitzer, da die warmen Temperaturen und längeren Tage zahlreiche Möglichkeiten für gemeinsame Aktivitäten im Freien bieten. Damit Ihre pelzigen Freunde diese Zeit in vollen Zügen genießen können, haben wir einige praxisnahe Tipps für Sie zusammengestellt.

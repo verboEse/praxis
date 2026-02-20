@@ -9,7 +9,7 @@ excerpt: "Liebe Tierfreunde, herzlich willkommen zum ersten Monats-Beitrag des J
 categories:
   - 10
 featured_media: 143
-published: true
+published: false
 ---
 
 Liebe Tierfreunde,

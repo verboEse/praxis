@@ -9,7 +9,7 @@ excerpt: "So bereiten Sie Ihre Haustiere auf den Herbst vor. Der September ist d
 categories:
   - 10
 featured_media: 203
-published: true
+published: false
 ---
 
 ##### So bereiten Sie Ihre Haustiere auf den Herbst vor.
