@@ -1,0 +1,67 @@
+name: Scheduled merge PR #3
+
+on:
+  schedule:
+    # Run every hour on 01.03.2026 (UTC)
+    - cron: '0 * 1 3 *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force merge even if date check fails"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  merge_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Decide whether to merge
+        id: guard
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force || false }}
+        run: |
+          TODAY_UTC="$(date -u +%F)"
+          TARGET_DATE="2026-03-01"
+
+          if [ "$FORCE" = "true" ] || [ "$TODAY_UTC" = "$TARGET_DATE" ]; then
+            echo "run_merge=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_merge=false" >> "$GITHUB_OUTPUT"
+            echo "Today is $TODAY_UTC UTC, target is $TARGET_DATE UTC. Skipping."
+          fi
+
+      - name: Merge pull request #3
+        if: steps.guard.outputs.run_merge == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const pull_number = 3;
+
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number });
+
+            if (pr.state !== 'open') {
+              core.info(`PR #${pull_number} is not open (state: ${pr.state}).`);
+              return;
+            }
+
+            if (pr.mergeable_state === 'dirty') {
+              core.setFailed(`PR #${pull_number} has merge conflicts.`);
+              return;
+            }
+
+            await github.rest.pulls.merge({
+              owner,
+              repo,
+              pull_number,
+              merge_method: 'squash'
+            });
+
+            core.info(`PR #${pull_number} merged successfully.`);
