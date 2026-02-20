@@ -18,13 +18,13 @@ Der Frühling ist in vollem Gange und lädt zu ausgiebigen Spaziergängen und Ga
 
 Mit den steigenden Temperaturen nimmt auch die Zeckenaktivität zu. Vergessen Sie nicht, Ihr Haustier nach jedem Aufenthalt im Freien gründlich abzusuchen. Entfernen Sie eventuelle Zecken umgehend mit einer Zeckenzange. Bei Katzen und Hunden mit Fellallergie kann die erhöhte Pollenbelastung zu Hautreizungen oder Atemproblemen führen. Sprechen Sie im Zweifelsfall mit Ihrer Tierärztin über mögliche Gegenmaßnahmen.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/05/pexels-erik-karits-2093459-5083106.jpg)
+![](/assets/images/pexels-erik-karits-2093459-5083106.jpg)
 
 ###### Gefahren im Garten erkennen
 
 Viele Gartenpflanzen und -produkte können für Haustiere giftig sein. Stellen Sie sicher, dass Ihr Vierbeiner keinen Zugang zu giftigen Blumen, Sträuchern oder Düngemitteln hat. Auch Schneckenkorn und andere Schädlingsbekämpfungsmittel können bei Aufnahme lebensgefährlich sein. Halten Sie Ihren Garten tierfreundlich und sicher.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/05/pexels-karolina-grabowska-4466626.jpg)
+![](/assets/images/pexels-karolina-grabowska-4466626.jpg)
 
 ###### Ausreichend Wasser und Schatten
 

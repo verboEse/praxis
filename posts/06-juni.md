@@ -18,13 +18,13 @@ Der Juni ist eine aufregende Zeit für Haustiere und ihre Besitzer, da die warme
 
 Mit steigenden Temperaturen ist es entscheidend sicherzustellen, dass Ihre pelzigen Gefährten ausreichend Wasser zur Verfügung haben. Katzen und Hunde können schnell dehydrieren, daher sollten Sie sicherstellen, dass ihre Wassernäpfe regelmäßig aufgefüllt werden. Verwenden Sie idealerweise eine breitere Schale für Hunde, damit sie leichter daraus trinken können.
 
-![Bild eines nassen Hunds, der vor einem Pool auf die Kamera zu läuft.](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/05/pexels-wildlittlethingsphoto-1844897.jpg)
+![Bild eines nassen Hunds, der vor einem Pool auf die Kamera zu läuft.](/assets/images/pexels-wildlittlethingsphoto-1844897.jpg)
 
 **2\. Kühl bleiben**
 
 Hunde und Katzen können an heißen Tagen überhitzen, besonders wenn sie viel draußen spielen. Stellen Sie sicher, dass sie immer Zugang zu einem schattigen Bereich haben, und bieten Sie ihnen kühlende Optionen wie eine mit Wasser gefüllte Hundewanne oder ein Katzenbett aus atmungsaktivem Material.
 
-![Bild einer draußen im Schatten schlafenden, rot getigerten Katze](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/05/pexels-blue-bird-7210265-1024x683.jpg)
+![Bild einer draußen im Schatten schlafenden, rot getigerten Katze](/assets/images/pexels-blue-bird-7210265.jpg)
 
 **3\. Parasitenschutz nicht vergessen**
 

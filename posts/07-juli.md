@@ -25,7 +25,7 @@ Wussten Sie, dass der 31. Juli der „**Tag des Mischlingshundes**“ ist? An di
 
 Ein Mischlingshund, auch einfach „Mischling“ genannt, ist ein Haushund, der keiner anerkannten Rasse zugeordnet werden kann, da seine Eltern unterschiedlichen Rassen angehören oder selbst Mischlinge sind. Diese Hunde variieren stark in Aussehen und Eigenschaften. Gesundheitlich profitieren Mischlinge von einer größeren genetischen Vielfalt, was sie tendenziell robuster gegen bestimmte züchtungsbedingte Krankheiten macht. Dennoch ist die Annahme, dass Mischlinge grundsätzlich gesünder sind als Rassehunde, wissenschaftlich nicht belegt.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/06/josh-rakower-zBsXaPEBSeI-unsplash-1-1024x768.jpg)
+![](/assets/images/josh-rakower-zBsXaPEBSeI-unsplash-1.jpg)
 
 #### Reisetipps für die Sommerferien in NRW
 
@@ -36,7 +36,7 @@ Sommerzeit ist Reisezeit! Am 8. Juli beginnen die Sommerferien. Wenn Sie planen,
 3.  **Reiseproviant**: Nehmen Sie genügend Wasser, Futter und Lieblingsspielzeug mit, um Ihrem Haustier eine angenehme Reise zu ermöglichen.
 4.  **Gesundheitscheck**: Lassen Sie vor der Reise einen kurzen Gesundheitscheck beim Tierarzt durchführen und stellen Sie sicher, dass alle Impfungen auf dem neuesten Stand sind.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/06/raoul-droog-Ea8rP2Ebp_4-unsplash-768x1024.jpg)
+![](/assets/images/raoul-droog-Ea8rP2Ebp_4-unsplash.jpg)
 
 #### Sommerliche Pflegetipps für Hunde und Katzen
 

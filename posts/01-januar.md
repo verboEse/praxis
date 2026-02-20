@@ -20,7 +20,7 @@ herzlich willkommen zum ersten Monats-Beitrag des Jahres! Im Januar stehen nicht
 
 Im Januar ist es besonders wichtig, das Winterfell Ihrer Tiere gut zu pflegen. Bürsten Sie regelmäßig lose Haare aus dem Fell, um die Isolationsfähigkeit zu erhalten. Achten Sie dabei auf empfindliche Stellen wie Pfoten und Bauch, um Verfilzungen zu vermeiden.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/01/PhotoReal_A_playful_Golden_Retriever_waiting_for_his_human_to_2-1024x683.jpg)
+![](/assets/images/PhotoReal_A_playful_Golden_Retriever_waiting_for_his_human_to_2.jpg)
 
 **2\. Ernährung im Winter: Energiebedarf anpassen**
 
@@ -30,7 +30,7 @@ Kalte Temperaturen erfordern mehr Energie für aktive Begleiter. Passen Sie die 
 
 Die Tage sind kurz, und Spaziergänge finden oft im Dunkeln statt. Investieren Sie in reflektierende Halsbänder oder Leinen, um die Sichtbarkeit Ihres Hundes zu erhöhen. Sollte Ihre Katze ein Halsband tragen, denken Sie auch hier über bessere Sichtbarkeit nach. Das minimiert das Risiko von Unfällen und sorgt für eine sichere Rückkehr nach Hause.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/01/PhotoReal_Cat_outside_in_the_dark_with_reflective_collar_The_c_1-1024x683.jpg)
+![](/assets/images/PhotoReal_Cat_outside_in_the_dark_with_reflective_collar_The_c_1.jpg)
 
 Aktionstag „Liebe-dein-Haustier“
 

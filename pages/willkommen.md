@@ -9,7 +9,7 @@ excerpt: "Herzlich Willkommen&nbsp;auf unseren Internetseiten!Besuche beim Tiera
 featured_media: 204
 ---
 
-[![Februar für Vierbeiner: Gelenkgesundheit und besondere Momente](https://kleintierpraxis-versmold.de/wp-content/uploads/2025/01/pexels-sam-lion-6001168.jpg)](https://kleintierpraxis-versmold.de/2026/01/februar-fuer-vierbeiner-gelenkgesundheit-und-besondere-momente/)
+[![Februar für Vierbeiner: Gelenkgesundheit und besondere Momente](/assets/images/pexels-sam-lion-6001168.jpg)](https://kleintierpraxis-versmold.de/2026/01/februar-fuer-vierbeiner-gelenkgesundheit-und-besondere-momente/)
 
 ## [Februar für Vierbeiner: Gelenkgesundheit und besondere Momente](https://kleintierpraxis-versmold.de/2026/01/februar-fuer-vierbeiner-gelenkgesundheit-und-besondere-momente/)
 
@@ -22,7 +22,7 @@ Der Februar steht vor der Tür, und mit ihm kommen nicht nur frostige Temperatur
 **Herzlich Willkommen** auf unseren Internetseiten!  
 Besuche beim Tierarzt sind im Allgemeinen für Ihr Tier und vielleicht auch für Sie ziemlich aufregend. Darum möchten wir Ihnen mit dieser Homepage die Gelegenheit geben, unsere Praxis schon vorher etwas **näher kennen zu lernen**. Haustiere, ob Hunde, Katzen, Mäuse, Hasen, Kaninchen, Meerschweinchen oder Vögel, sind unsere treuesten Begleiter, Spielkameraden und geliebte Familienmitglieder. Die optimale **Vorsorge**, die gründliche **Diagnostik** und die **Behandlung** sowie eine ausführliche **Beratung** sind für uns selbstverständlich. Die Gesundheit ihrer Tiere liegt uns am Herzen. Wir kümmern uns gerne um Ihre Haustiere.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/08/pexels-jose-eduardo-lopez-474478-26923889.jpg)
+![](/assets/images/pexels-jose-eduardo-lopez-474478-26923889.jpg)
 
 Bitte vereinbaren sie nach Möglichkeit im Vorfeld einen **Termin**, um die Wartezeit für Sie und Ihr Tier so kurz wie möglich zu halten. Kunden ohne vorherige Anmeldung müssen leider mit längeren Wartezeiten rechnen!
 
