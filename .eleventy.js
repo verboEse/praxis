@@ -9,7 +9,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("posts", function (collectionApi) {
     return collectionApi
       .getFilteredByGlob("posts/*.md")
-      .filter(post => post.data.published === true) // Only include if explicitly published: true
+      .filter(post => post.data.published === true) // Only include if explicitly published: false
       .sort((a, b) => {
         return new Date(b.data.date) - new Date(a.data.date);
       });

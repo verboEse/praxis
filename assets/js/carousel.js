@@ -3,7 +3,7 @@
  * Handles navigation through blog posts with arrow buttons and dot indicators
  */
 
-(function() {
+(function () {
   const carousel = document.querySelector('.posts-carousel');
   const slides = document.querySelectorAll('.carousel-post');
   const prevBtn = document.querySelector('.carousel-prev');
