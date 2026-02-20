@@ -8,7 +8,10 @@
     "export": "node wordpress-export.js",
     "download-images": "node download-images.js",
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "lint": "eslint . --ext .js,.njk,.html",
+    "validate:a11y": "node validate-a11y.js",
+    "validate": "npm run build && npm run validate:a11y"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +23,8 @@
   },
   "devDependencies": {
     "axios": "^1.13.5",
+    "eslint": "^8.56.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "js-yaml": "^4.1.1",
     "turndown": "^7.2.2"
   }
