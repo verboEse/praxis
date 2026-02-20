@@ -5,7 +5,7 @@ modified: "2026-02-21T00:10:10.000Z"
 status: "publish"
 type: "post"
 slug: "fruehjahrsallergien-bei-haustieren"
-excerpt: "Mit den ersten warmen Tagen in Versmold beginnt für viele Haustiere die Allergiesaison. Erfahren Sie, wie sich **Allergien** bei Hunden, Katzen und Heimtieren äußern, welche Auslöser im Frühling typisch sind und wie Ihr **Tierarzt Versmold** im Rahmen einer ganzheitlichen Gesundheitsvorsorge Haustiere kompetent begleitet."
+excerpt: "Mit den ersten warmen Tagen in Versmold beginnt für viele Haustiere die Allergiesaison. Erfahren Sie, wie sich Allergien bei Hunden, Katzen und Heimtieren äußern, welche Auslöser im Frühling typisch sind und wie Ihr Tierarzt Versmold im Rahmen einer ganzheitlichen Gesundheitsvorsorge Haustiere kompetent begleitet."
 categories:
   - 10
 published: true
