@@ -1,7 +1,7 @@
 ---
 title: "Dezember-Tipps: Schutz Ihrer Kleintiere vor Kälte"
 date: "2025-12-08T18:51:06.000Z"
-modified: "2025-12-08T18:56:30.000Z"
+modified: "2026-02-20T20:46:38.000Z"
 status: "publish"
 type: "post"
 slug: "dezember-tipps-schutz-ihrer-kleintiere-vor-kaelte"
