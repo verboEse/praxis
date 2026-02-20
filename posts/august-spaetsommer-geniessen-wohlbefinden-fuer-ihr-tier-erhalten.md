@@ -16,6 +16,7 @@ tags:
   - 11
   - 8
   - 9
+published: true
 ---
 
 Willkommen im August! Der Spätsommer bringt oft noch viele warme Tage, aber auch erste Anzeichen des nahenden Herbstes. Für unsere Haustiere – ob Hund, Katze oder Heimtier – ist jetzt die richtige Zeit, um ihnen einen möglichst angenehmen Ausklang des Sommers zu ermöglichen. Wir haben wieder einige hilfreiche Tipps und Hinweise für Sie zusammengestellt.

@@ -7,9 +7,12 @@ export default function (eleventyConfig) {
 
   // Add collections
   eleventyConfig.addCollection("posts", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("posts/*.md").sort((a, b) => {
-      return new Date(b.data.date) - new Date(a.data.date);
-    });
+    return collectionApi
+      .getFilteredByGlob("posts/*.md")
+      .filter(post => post.data.published !== false) // Only include published posts
+      .sort((a, b) => {
+        return new Date(b.data.date) - new Date(a.data.date);
+      });
   });
 
   eleventyConfig.addCollection("pages", function (collectionApi) {

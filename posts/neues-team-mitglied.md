@@ -7,6 +7,7 @@ type: "post"
 slug: "neues-team-mitglied"
 categories:
   - 1
+published: true
 ---
 
 *   Tierarzt Dr. Peter Ruch (Fachtierarzt f. Wild- und Zootiere)

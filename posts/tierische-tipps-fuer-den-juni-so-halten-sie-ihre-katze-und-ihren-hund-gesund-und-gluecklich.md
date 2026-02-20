@@ -8,7 +8,8 @@ slug: "tierische-tipps-fuer-den-juni-so-halten-sie-ihre-katze-und-ihren-hund-ges
 excerpt: "Der Juni ist eine aufregende Zeit für Haustiere und ihre Besitzer, da die warmen Temperaturen und längeren Tage zahlreiche Möglichkeiten für gemeinsame Aktivitäten im Freien bieten. Damit Ihre pelzigen Freunde diese Zeit in vollen Zügen genießen können, haben wir einige praxisnahe Tipps für Sie zusammengestellt. 1. Hydration ist der Schlüssel Mit steigenden Temperaturen ist es [&hellip;]"
 categories:
   - 10
-featured_media: 159
+featured_media: 146
+published: true
 ---
 
 Der Juni ist eine aufregende Zeit für Haustiere und ihre Besitzer, da die warmen Temperaturen und längeren Tage zahlreiche Möglichkeiten für gemeinsame Aktivitäten im Freien bieten. Damit Ihre pelzigen Freunde diese Zeit in vollen Zügen genießen können, haben wir einige praxisnahe Tipps für Sie zusammengestellt.

@@ -10,8 +10,7 @@ title: Kleintierpraxis Versmold
       
       <div class="carousel-wrapper">
         <div class="posts-carousel">
-          {% set featuredPosts = collections.posts %}
-          {% for post in featuredPosts %}
+          {% for post in collections.posts %}
             <article class="carousel-post" data-slide-index="{{ loop.index0 }}">
               <div class="carousel-image">
                 {% if post.data.featured_media %}
