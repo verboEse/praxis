@@ -8,8 +8,6 @@ slug: "willkommen"
 excerpt: "Herzlich Willkommen auf unseren Internetseiten!"
 ---
 
-# Willkommen
-
 **Herzlich Willkommen** auf unseren Internetseiten!
 Besuche beim Tierarzt sind im Allgemeinen für Ihr Tier und vielleicht auch für Sie ziemlich aufregend. Darum möchten wir Ihnen mit dieser Homepage die Gelegenheit geben, unsere Praxis schon vorher etwas **näher kennen zu lernen**.
 
