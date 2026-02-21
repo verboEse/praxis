@@ -16,7 +16,7 @@ published: false
 
 Der September ist da, und mit ihm kommen kühlere Temperaturen und kürzere Tage. Für Haustierbesitzer ist dies die ideale Zeit, um die Pflegegewohnheiten anzupassen und sicherzustellen, dass Ihre Lieblinge gut auf den Herbst vorbereitet sind. Ob Hund, Katze oder Kaninchen – hier sind einige hilfreiche Tipps, um Ihre Haustiere in den kommenden Wochen gesund und glücklich zu halten.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/08/pexels-magda-ehlers-pexels-9348917.jpg)
+![](/assets/images/pexels-magda-ehlers-pexels-9348917.jpg)
 
 #### 1\. Vorbereitung auf kühlere Temperaturen
 
@@ -36,7 +36,7 @@ Mit dem Wechsel der Jahreszeiten ändern sich auch die Bedürfnisse Ihrer Hausti
 
 #### 3\. Gesundheitsvorsorge für den Herbst
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2024/08/pexels-jose-eduardo-lopez-474478-26923889-1024x575.jpg)
+![](/assets/images/pexels-jose-eduardo-lopez-474478-26923889.jpg)
 
 Der Herbst bringt nicht nur kühlere Temperaturen, sondern auch eine erhöhte Anfälligkeit für bestimmte Krankheiten mit sich. Jetzt ist der perfekte Zeitpunkt, um den allgemeinen Gesundheitszustand Ihres Haustieres zu überprüfen.
 
