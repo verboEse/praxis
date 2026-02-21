@@ -15,7 +15,23 @@ Knetterhauser Straße 26
 
 Telefon: (0 54 23) 4 39 56 06
 
-eMail:  .pdw6998pd span span{position:absolute;top:-9676px}.pdw6998pd .w6998{position:static}.w6998:after{content:"@"}.w6998w6998:after{content:"."}.gb6998:after{content:"y"}.ow6998{top:-9260px;position:absolute}.fw6998{position:absolute;top:-12555px}.amw6998:after{content:"m"}.afw6998:after{content:"f"}.anw6998:after{content:"n"}.aaw6998:after{content:"a"}.tw6998{position:absolute;top:-13004px}.ew6998{position:absolute;top:-9165px}.rw6998{position:absolute;top:-13103px}.aw6998{position:absolute;top:-12583px}.aiw6998:after{content:"i"}.axw6998:after{content:"x"}.sw6998{position:absolute;top:-11750px}.dw6998{top:-9228px;position:absolute}.xw6998{top:-9210px;position:absolute}.mw6998{position:absolute;top:-10531px}.adw6998:after{content:"d"}.jb6998:after{content:"u"}.fb6998:after{content:"b"}.vw6998{position:absolute;top:-11233px}.atw6998:after{content:"t"}.kw6998{top:-11005px;position:absolute}.ub6998:after{content:"r"}.lw6998{position:absolute;top:-13879px}.vb6998:after{content:"q"}.akw6998:after{content:"k"}.pw6998{top:-10227px;position:absolute}.iw6998{position:absolute;top:-10300px}.kb6998:after{content:"q"}.asw6998:after{content:"s"}.arw6998:after{content:"r"}.avw6998:after{content:"v"}.alw6998:after{content:"l"}.apw6998:after{content:"p"}.aew6998:after{content:"e"}.-w6998{position:absolute;top:-13339px}.aow6998:after{content:"o"}.a-w6998:after{content:"-"}.nw6998{position:absolute;top:-11778px}w6998w6998
+eMail: <span id="email-obfuscated">Bitte JavaScript aktivieren</span>
+<noscript>info [at] kleintierpraxis-versmold.de</noscript>
+<script>
+	(function () {
+		var user = 'info';
+		var domain = 'kleintierpraxis-versmold.de';
+		var email = user + '@' + domain;
+		var link = document.createElement('a');
+		link.href = 'mailto:' + email;
+		link.textContent = email;
+		var target = document.getElementById('email-obfuscated');
+		if (target) {
+			target.textContent = '';
+			target.appendChild(link);
+		}
+	})();
+</script>
 
 UStID: 351/5037/2275 (Finanzamt Gütersloh)
 
