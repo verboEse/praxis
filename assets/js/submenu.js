@@ -6,6 +6,24 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mainNavigation = document.querySelector('#main-navigation');
+
+  if (menuToggle && mainNavigation) {
+    menuToggle.addEventListener('click', () => {
+      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', String(!expanded));
+      mainNavigation.classList.toggle('is-open', !expanded);
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 768) {
+        menuToggle.setAttribute('aria-expanded', 'false');
+        mainNavigation.classList.remove('is-open');
+      }
+    });
+  }
+
   const menuItems = document.querySelectorAll('.has-submenu');
 
   menuItems.forEach(item => {

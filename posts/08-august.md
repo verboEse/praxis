@@ -23,7 +23,7 @@ Willkommen im August! Der Spätsommer bringt oft noch viele warme Tage, aber auc
 
 ### Besonderer Tag im August: Internationaler Katzentag
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2025/07/pexels-kmerriman-20787-1024x683.jpg)
+![](/assets/images/pexels-kmerriman-20787-scaled.jpg)
 
 Am **8\. August** ist **Internationaler Katzentag** – ein schöner Anlass, um unseren schnurrenden Gefährten besondere Aufmerksamkeit zu schenken. Vielleicht mit einem neuen Kratzbaum, einem spannenden Spielzeug oder einfach einem gemütlichen gemeinsamen Nachmittag auf dem Balkon oder im Garten.
 
@@ -47,7 +47,7 @@ Im August sind Wespen besonders aktiv – für Haustiere kann das gefährlich we
 
 **Stichverletzungen:** Kommt es doch zu einem Stich, etwa an Pfoten oder Schnauze, reagieren Tiere oft mit Schwellung, Schmerz oder sogar Atemnot. Kontaktieren Sie umgehend Ihre Tierarztpraxis.
 
-![drei Wespen fliegen auf den Betrachter zu.](https://kleintierpraxis-versmold.de/wp-content/uploads/2025/07/1076px-AD2009Sep09_Vespula_germanica_05-300x201.jpg)
+![drei Wespen fliegen auf den Betrachter zu.](/assets/images/1076px-AD2009Sep09_Vespula_germanica_05.jpg)
 
 ### Fellpflege und Fellwechsel vorbereiten
 

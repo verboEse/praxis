@@ -20,7 +20,7 @@ der Februar steht vor der Tür, und mit ihm kommen nicht nur frostige Temperatur
 
 Die winterlichen Monate stellen für unsere geliebten Haustiere eine besondere Herausforderung dar. Während wir Menschen uns gemütlich in warme Pullover und Decken kuscheln können, benötigen unsere vierbeinigen Freunde unsere aktive Unterstützung, um gesund und wohlauf durch die kalte Jahreszeit zu kommen.Die Natur hat Hunde, Katzen und andere Haustiere zwar mit einem schützenden Fell ausgestattet, dennoch sind sie auf unsere Hilfe angewiesen. Niedrige Temperaturen, trockene Heizungsluft und weniger Bewegung können ihre Gesundheit und Lebensfreude beeinträchtigen. Gerade ältere Tiere und solche mit Vorerkrankungen spüren die Auswirkungen des Winters besonders deutlich.
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2025/01/pexels-elly-fairytale-5860041-683x1024.jpg)
+![](/assets/images/pexels-elly-fairytale-5860041.jpg)
 
 **Wichtigste Aspekte der Winterpflege:**
 
@@ -49,7 +49,7 @@ Am 20. Februar feiern wir den „Liebe-Dein-Haustier-Tag“ – eine wunderbare 
 *   Achten Sie bei Nagetieren auf eine zugfreie, aber gut belüftete Umgebung
 *   Passen Sie die Ernährung an den veränderten Energiebedarf im Winter an
 
-![](https://kleintierpraxis-versmold.de/wp-content/uploads/2025/01/pexels-sam-lion-6001168-1024x683.jpg)
+![](/assets/images/pexels-sam-lion-6001168.jpg)
 
 ## Expertentipp: Vorsorge ist der beste Schutz
 
