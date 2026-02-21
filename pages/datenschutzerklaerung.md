@@ -7,11 +7,9 @@ type: "page"
 slug: "datenschutzerklaerung"
 ---
 
-# Datenschutzerklärung
-
 In dieser Datenschutzerklärung informieren wir Sie über die Verarbeitung Ihrer personenbezogenen Daten.
 
-Sofern Sie Ihre Datenschutzeinstellungen ändern möchten (Einwilligungen erteilen oder bereits erteilte Einwilligungen widerrufen), klicken Sie [hier](#) um Ihre Einstellungen zu ändern.
+Sofern Sie Ihre Datenschutzeinstellungen ändern möchten (Einwilligungen erteilen oder bereits erteilte Einwilligungen widerrufen), klicken Sie <a href="javascript:void(0);" onclick="window.ConsentManager && window.ConsentManager.resetConsent(); return false;" title="Datenschutzeinstellungen öffnen">hier</a> um Ihre Einstellungen zu ändern.
 
 ## Verantwortlich
 
@@ -19,9 +17,9 @@ Anne Dreyer-Ciszewski, Tierarztpraxis, Knetterhauser Straße 26, 33775 Versmold,
 
 ## Hosting Provider
 
-### Netcup
+### Vercel
 
-Wir hosten unsere Website bei unserem Auftragsverarbeiter [Netcup](https://www.netcup.de), netcup GmbH, Daimlerstraße 25, 76185 Karlsruhe, Deutschland.
+Wir hosten unsere Website bei unserem Auftragsverarbeiter [Vercel](https://vercel.com), Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA.
 
 Zum Zweck der Bereitstellung und der Auslieferung der Website werden Verbindungsdaten verarbeitet. Zum bloßen Zweck der Auslieferung und Bereitstellung der Website werden die Daten über den Aufruf hinaus nicht gespeichert.
 
@@ -37,13 +35,18 @@ Die Rechtsgrundlage für die Datenverarbeitung ist das berechtigte Interesse (un
 
 ## Analysedienste
 
-### WP Statistics
 
-Zum Zweck der Suche und Analyse von Fehlern, der Auswertung der Nutzung und der Ableitung von Maßnahmen zur zukünftigen Weiterentwicklung unserer Website verarbeiten wir Ihre Daten mit Hilfe der lokalen Analysesoftware [WP-Statistics](https://wordpress.org/plugins/wp-statistics/), WordPress.
+### Vercel Speed Insights
 
-Da es sich bei diesem Dienst um ein lokales Analysetool handelt, werden keinerlei personenbezogene Daten an den Diensteanbieter oder an Dritte weitergeleitet. Zudem werden Ihre personenbezogenen Daten unmittelbar nach Erhebung anonymisiert. Eine über den ersten Verarbeitungsschritt hinausgehende Speicherung von personenbezogenen Daten findet daher nicht statt.
+Zur Analyse der technischen Performance unserer Website nutzen wir Vercel Speed Insights (Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA).
 
-Die Rechtsgrundlage für die Datenverarbeitung ist das berechtigte Interesse (unbedingte technische Notwendigkeit zur Bereitstellung und Auslieferung des von Ihnen durch Ihren Aufruf ausdrücklich gewünschten Dienstes „Website“) gemäß Art. 6 Abs. 1 lit. f DSGVO.
+Dabei werden insbesondere technische Nutzungs- und Leistungsdaten (z. B. aufgerufene Seite, Browser-/Geräteinformationen, Performance-Kennzahlen wie Ladezeiten und Web Vitals) verarbeitet, um die Stabilität und Geschwindigkeit unserer Website zu verbessern.
+
+Je nach technischer Ausgestaltung kann eine Verarbeitung auch in Drittländern (insbesondere den USA) stattfinden.
+
+Die Verarbeitung erfolgt ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Ohne Ihre Einwilligung werden keine Daten an Vercel übermittelt. Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie Ihre <a href="javascript:void(0);" onclick="window.ConsentManager && window.ConsentManager.resetConsent(); return false;" title="Datenschutzeinstellungen ändern">Datenschutzeinstellungen</a> ändern.
+
+Ihre Entscheidung wird lokal in Ihrem Browser (localStorage) gespeichert und gilt nur für dieses Gerät und diesen Browser.
 
 ## Widerspruchsrecht
 
@@ -57,7 +60,7 @@ Die Rechtmäßigkeit der bis zum Widerspruch verarbeiteten Daten wird durch den 
 
 ## Widerrufsrecht
 
-Sie haben das Recht eine bereits erteilte Einwilligung jederzeit zu widerrufen, indem Sie die [Datenschutzeinstellungen](# "Datenschutzeinstellungen") ändern.
+Sie haben das Recht eine bereits erteilte Einwilligung jederzeit zu widerrufen, indem Sie die <a href="javascript:void(0);" onclick="window.ConsentManager && window.ConsentManager.resetConsent(); return false;" title="Datenschutzeinstellungen ändern">Datenschutzeinstellungen</a> ändern.
 
 Im Fall der Einwilligung in den Erhalt elektronischer Werbung kann der Widerruf Ihrer Einwilligung durch Klick auf den Abmeldelink erfolgen. In diesem Fall wird eine Verarbeitung, sofern keine andere Rechtsgrundlage besteht, eingestellt.
 
