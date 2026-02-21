@@ -18,7 +18,7 @@ Mit den ersten warmen Sonnenstrahlen rund um Versmold beginnt für viele Tiere e
 
 Als *Tierarzt Versmold* erleben wir jedes Jahr, dass sich allergische Beschwerden oft schleichend entwickeln und zunächst unspezifisch erscheinen.
 
-![Hund im Frühlingsgras](/assets/images/pexels-sam-lion-6001168.jpg)
+![Silbergraue Katze liegt auf einer braunen Holzoberfläche](/assets/images/pexels-pixabay-126407.jpg)
 
 #### Typische Anzeichen frühzeitig erkennen
 
@@ -30,7 +30,7 @@ Gerade im ländlich geprägten Umfeld von Versmold mit seinen Feldern und Pollen
 
 Die Abklärung von Allergien erfordert Zeit und ein strukturiertes Vorgehen. In unserer Praxis als **Tierarzt Versmold** kombinieren wir eine ausführliche Anamnese mit moderner Diagnostik. Hautuntersuchungen, Ausschlussdiäten oder gegebenenfalls Bluttests können Bestandteil der Abklärung sein.
 
-![Katze in der Natur](/assets/images/pexels-ioan-dan-plesa-75309815-19650701.jpg)
+![Nahaufnahme einer getigerten Katze mit gelben Augen vor unscharfem, winterlichem Hintergrund](/assets/images/pexels-ioan-dan-plesa-75309815-19650701.jpg)
 
 Wichtig ist, andere Erkrankungen mit ähnlichen Symptomen auszuschließen. Dazu gehören Parasitenbefall oder Hautinfektionen. Gerade im Frühjahr spielt daher auch die Parasitenprophylaxe eine bedeutende Rolle. Eine ganzheitliche **Gesundheitsvorsorge Haustiere** hilft, Risiken frühzeitig zu erkennen und Beschwerden zu lindern, bevor sie chronisch werden.
 
