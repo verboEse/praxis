@@ -21,7 +21,11 @@
               <p class="site-tagline">{{ site.owner }}</p>
             </div>
           </div>
-          <nav>
+          <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" aria-label="Menü öffnen">
+            <span class="menu-toggle-icon" aria-hidden="true">☰</span>
+            <span class="menu-toggle-text">Menü</span>
+          </button>
+          <nav id="main-navigation" class="main-navigation">
             <ul class="nav-menu">
               <li><a href="/">Willkommen</a></li>
               <li><a href="/pages/team/">Team</a></li>
