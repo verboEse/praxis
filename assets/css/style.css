@@ -1091,3 +1091,97 @@ footer {
     font-size: 2.5rem;
   }
 }
+
+/* Consent Banner */
+#consent-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  padding: 1.5rem;
+  border-top: 3px solid #8f3131;
+}
+
+.consent-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#consent-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.25rem;
+  color: #8f3131;
+}
+
+#consent-message {
+  margin: 0 0 1.25rem 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.consent-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.consent-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-weight: 500;
+}
+
+.consent-btn-primary {
+  background-color: #8f3131;
+  color: #fff;
+}
+
+.consent-btn-primary:hover,
+.consent-btn-primary:focus {
+  background-color: #6d2525;
+}
+
+.consent-btn-secondary {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.consent-btn-secondary:hover,
+.consent-btn-secondary:focus {
+  background-color: #e0e0e0;
+}
+
+.consent-btn:focus {
+  outline: 2px solid #8f3131;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  #consent-banner {
+    padding: 1rem;
+  }
+
+  #consent-title {
+    font-size: 1.1rem;
+  }
+
+  #consent-message {
+    font-size: 0.95rem;
+  }
+
+  .consent-buttons {
+    flex-direction: column;
+  }
+
+  .consent-btn {
+    width: 100%;
+  }
+}

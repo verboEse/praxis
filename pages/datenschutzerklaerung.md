@@ -11,7 +11,7 @@ slug: "datenschutzerklaerung"
 
 In dieser Datenschutzerklärung informieren wir Sie über die Verarbeitung Ihrer personenbezogenen Daten.
 
-Sofern Sie Ihre Datenschutzeinstellungen ändern möchten (Einwilligungen erteilen oder bereits erteilte Einwilligungen widerrufen), klicken Sie [hier](#) um Ihre Einstellungen zu ändern.
+Sofern Sie Ihre Datenschutzeinstellungen ändern möchten (Einwilligungen erteilen oder bereits erteilte Einwilligungen widerrufen), klicken Sie <a href="javascript:void(0);" onclick="window.ConsentManager && window.ConsentManager.resetConsent(); return false;" title="Datenschutzeinstellungen öffnen">hier</a> um Ihre Einstellungen zu ändern.
 
 ## Verantwortlich
 
@@ -45,6 +45,18 @@ Da es sich bei diesem Dienst um ein lokales Analysetool handelt, werden keinerle
 
 Die Rechtsgrundlage für die Datenverarbeitung ist das berechtigte Interesse (unbedingte technische Notwendigkeit zur Bereitstellung und Auslieferung des von Ihnen durch Ihren Aufruf ausdrücklich gewünschten Dienstes „Website“) gemäß Art. 6 Abs. 1 lit. f DSGVO.
 
+### Vercel Speed Insights
+
+Zur Analyse der technischen Performance unserer Website nutzen wir Vercel Speed Insights (Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA).
+
+Dabei werden insbesondere technische Nutzungs- und Leistungsdaten (z. B. aufgerufene Seite, Browser-/Geräteinformationen, Performance-Kennzahlen wie Ladezeiten und Web Vitals) verarbeitet, um die Stabilität und Geschwindigkeit unserer Website zu verbessern.
+
+Je nach technischer Ausgestaltung kann eine Verarbeitung auch in Drittländern (insbesondere den USA) stattfinden.
+
+Die Verarbeitung erfolgt ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO. Ohne Ihre Einwilligung werden keine Daten an Vercel übermittelt. Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie Ihre <a href="javascript:void(0);" onclick="window.ConsentManager && window.ConsentManager.resetConsent(); return false;" title="Datenschutzeinstellungen ändern">Datenschutzeinstellungen</a> ändern.
+
+Ihre Entscheidung wird lokal in Ihrem Browser (localStorage) gespeichert und gilt nur für dieses Gerät und diesen Browser.
+
 ## Widerspruchsrecht
 
 Sofern die Verarbeitung Ihrer personenbezogenen Daten auf Grundlage des berechtigten Interesses erfolgt, haben Sie das Recht gegen diese Verarbeitung zu widersprechen.
@@ -57,7 +69,7 @@ Die Rechtmäßigkeit der bis zum Widerspruch verarbeiteten Daten wird durch den 
 
 ## Widerrufsrecht
 
-Sie haben das Recht eine bereits erteilte Einwilligung jederzeit zu widerrufen, indem Sie die [Datenschutzeinstellungen](# "Datenschutzeinstellungen") ändern.
+Sie haben das Recht eine bereits erteilte Einwilligung jederzeit zu widerrufen, indem Sie die <a href="javascript:void(0);" onclick="window.ConsentManager && window.ConsentManager.resetConsent(); return false;" title="Datenschutzeinstellungen ändern">Datenschutzeinstellungen</a> ändern.
 
 Im Fall der Einwilligung in den Erhalt elektronischer Werbung kann der Widerruf Ihrer Einwilligung durch Klick auf den Abmeldelink erfolgen. In diesem Fall wird eine Verarbeitung, sofern keine andere Rechtsgrundlage besteht, eingestellt.
 
