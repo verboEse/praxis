@@ -7,8 +7,6 @@ type: "page"
 slug: "datenschutzerklaerung"
 ---
 
-# Datenschutzerklärung
-
 In dieser Datenschutzerklärung informieren wir Sie über die Verarbeitung Ihrer personenbezogenen Daten.
 
 Sofern Sie Ihre Datenschutzeinstellungen ändern möchten (Einwilligungen erteilen oder bereits erteilte Einwilligungen widerrufen), klicken Sie <a href="javascript:void(0);" onclick="window.ConsentManager && window.ConsentManager.resetConsent(); return false;" title="Datenschutzeinstellungen öffnen">hier</a> um Ihre Einstellungen zu ändern.
@@ -19,9 +17,9 @@ Anne Dreyer-Ciszewski, Tierarztpraxis, Knetterhauser Straße 26, 33775 Versmold,
 
 ## Hosting Provider
 
-### Netcup
+### Vercel
 
-Wir hosten unsere Website bei unserem Auftragsverarbeiter [Netcup](https://www.netcup.de), netcup GmbH, Daimlerstraße 25, 76185 Karlsruhe, Deutschland.
+Wir hosten unsere Website bei unserem Auftragsverarbeiter [Vercel](https://vercel.com), Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA.
 
 Zum Zweck der Bereitstellung und der Auslieferung der Website werden Verbindungsdaten verarbeitet. Zum bloßen Zweck der Auslieferung und Bereitstellung der Website werden die Daten über den Aufruf hinaus nicht gespeichert.
 
@@ -37,13 +35,6 @@ Die Rechtsgrundlage für die Datenverarbeitung ist das berechtigte Interesse (un
 
 ## Analysedienste
 
-### WP Statistics
-
-Zum Zweck der Suche und Analyse von Fehlern, der Auswertung der Nutzung und der Ableitung von Maßnahmen zur zukünftigen Weiterentwicklung unserer Website verarbeiten wir Ihre Daten mit Hilfe der lokalen Analysesoftware [WP-Statistics](https://wordpress.org/plugins/wp-statistics/), WordPress.
-
-Da es sich bei diesem Dienst um ein lokales Analysetool handelt, werden keinerlei personenbezogene Daten an den Diensteanbieter oder an Dritte weitergeleitet. Zudem werden Ihre personenbezogenen Daten unmittelbar nach Erhebung anonymisiert. Eine über den ersten Verarbeitungsschritt hinausgehende Speicherung von personenbezogenen Daten findet daher nicht statt.
-
-Die Rechtsgrundlage für die Datenverarbeitung ist das berechtigte Interesse (unbedingte technische Notwendigkeit zur Bereitstellung und Auslieferung des von Ihnen durch Ihren Aufruf ausdrücklich gewünschten Dienstes „Website“) gemäß Art. 6 Abs. 1 lit. f DSGVO.
 
 ### Vercel Speed Insights
 
