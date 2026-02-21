@@ -29,7 +29,7 @@ Lernen Sie das Team der Kleintierpraxis Versmold kennen.
   <img src="/assets/images/DSC_8551.jpg" alt="Anne Dreyer-Ciszewski">
   <p class="lightbox-caption">Anne Dreyer-Ciszewski - Tierärztin</p>
 </div>
-
+<!-- 
 <div id="team2" class="lightbox">
   <a href="#" class="close">×</a>
   <img src="/assets/images/placeholder-team2.jpg" alt="Team-Mitglied 2">
@@ -41,5 +41,5 @@ Lernen Sie das Team der Kleintierpraxis Versmold kennen.
   <img src="/assets/images/placeholder-team3.jpg" alt="Team-Mitglied 3">
   <p class="lightbox-caption">Name 3 - Position/Funktion</p>
 </div>
-
+-->
 <!-- Weitere Lightboxes können hier hinzugefügt werden -->
