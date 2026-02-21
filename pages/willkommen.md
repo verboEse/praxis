@@ -10,8 +10,7 @@ excerpt: "Herzlich Willkommen auf unseren Internetseiten!"
 
 # Willkommen
 
-## Herzlich Willkommen!
-
+**Herzlich Willkommen** auf unseren Internetseiten!
 Besuche beim Tierarzt sind im Allgemeinen für Ihr Tier und vielleicht auch für Sie ziemlich aufregend. Darum möchten wir Ihnen mit dieser Homepage die Gelegenheit geben, unsere Praxis schon vorher etwas **näher kennen zu lernen**.
 
 Haustiere, ob Hunde, Katzen, Mäuse, Hasen, Kaninchen, Meerschweinchen oder Vögel, sind unsere treuesten Begleiter, Spielkameraden und geliebte Familienmitglieder. Die optimale **Vorsorge**, die gründliche **Diagnostik** und die **Behandlung** sowie eine ausführliche **Beratung** sind für uns selbstverständlich. Die Gesundheit ihrer Tiere liegt uns am Herzen. Wir kümmern uns gerne um Ihre Haustiere.
