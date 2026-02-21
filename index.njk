@@ -42,39 +42,13 @@ title: Kleintierpraxis Versmold
         </div>
       </div>
     </section>
-
+    {% for page in collections.all %}
+      {% if page.data.slug === 'willkommen' %}
     <section class="welcome-section">
-      <p>
-        <strong>Herzlich Willkommen</strong> auf unseren Internetseiten!
-      </p>
-      <p>
-        Besuche beim Tierarzt sind im Allgemeinen für Ihr Tier und vielleicht auch für Sie ziemlich aufregend. 
-        Darum möchten wir Ihnen mit dieser Homepage die Gelegenheit geben, unsere Praxis schon vorher etwas <strong>näher kennen zu lernen</strong>.
-      </p>
-      <p>
-        Haustiere, ob Hunde, Katzen, Mäuse, Hasen, Kaninchen, Meerschweinchen oder Vögel, sind unsere treuesten Begleiter, 
-        Spielkameraden und geliebte Familienmitglieder. Die optimale <strong>Vorsorge</strong>, die gründliche <strong>Diagnostik</strong> und die <strong>Behandlung</strong> 
-        sowie eine ausführliche <strong>Beratung</strong> sind für uns selbstverständlich. Die Gesundheit ihrer Tiere liegt uns am Herzen. 
-        Wir kümmern uns gerne um Ihre Haustiere.
-      </p>
-      <img src="/assets/images/pexels-jose-eduardo-lopez-474478-26923889.jpg" alt="Tierarzt mit Hund" class="content-image">
-      <p>
-        Bitte vereinbaren sie nach Möglichkeit im Vorfeld einen <strong>Termin</strong>, um die Wartezeit für Sie und Ihr Tier 
-        so kurz wie möglich zu halten. Kunden ohne vorherige Anmeldung müssen leider mit längeren Wartezeiten rechnen!
-      </p>
-      <p>
-        Im <strong>Notfall</strong> und bei schweren Erkrankungen bieten wir <strong>intensive veterinär-medizinische Versorgung</strong> 
-        mit der Möglichkeit der stationären Unterbringung in unserer Praxis. Bitte beachten Sie, dass der diensthabende Tierarzt 
-        tagsüber normale Sprechzeiten hat und der Nachtdienst eine zusätzliche Belastung ist. Probleme, die am Tag geklärt werden 
-        können, sollten nicht in die Nachtstunden verschoben werden. Im Notdienst kommt mindestens der 2-fache Satz der GOT 
-        (Gebührenordnung für Tierärzte) zur Anwendung.
-      </p>
-      <p>
-        Gerne beraten wir Sie auch, wenn Sie sich einen <strong>Welpen</strong> anschaffen wollen, oder dies bereits getan haben, 
-        wenn es um die ausgewogene <strong>Ernährung</strong> Ihres schon älteren Haustieres geht oder aber bei 
-        <strong>Verhaltensauffälligkeiten</strong>. Sprechen Sie uns an!
-      </p>
+      {{ page.templateContent | safe }}
     </section>
+      {% endif %}
+    {% endfor %}
   </main>
 
   <aside class="sidebar">
