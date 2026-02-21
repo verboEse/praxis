@@ -42,9 +42,13 @@ title: Kleintierpraxis Versmold
         </div>
       </div>
     </section>
+    {% for page in collections.all %}
+      {% if page.data.slug === 'willkommen' %}
     <section class="welcome-section">
-      {% include "partials/welcome-content.njk" %}
+      {{ page.templateContent | safe }}
     </section>
+      {% endif %}
+    {% endfor %}
   </main>
 
   <aside class="sidebar">
