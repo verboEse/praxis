@@ -64,6 +64,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("assets/js/");
 
   return {
+    pathPrefix: process.env.ELEVENTY_PATH_PREFIX || "/",
     dir: {
       input: ".",
       output: "_site",

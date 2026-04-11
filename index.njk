@@ -15,7 +15,7 @@ title: Kleintierpraxis Versmold
                 {% if post.data.featured_media %}
                   {% set mediaItem = media | find(post.data.featured_media) %}
                   {% if mediaItem %}
-                    <img src="/assets/images/{{ mediaItem.url | basename }}" alt="{{ post.data.title }}">
+                    <img src="{{ ('/assets/images/' + (mediaItem.url | basename)) | url }}" alt="{{ post.data.title }}">
                   {% endif %}
                 {% endif %}
               </div>
