@@ -19,9 +19,10 @@ export default function (eleventyConfig) {
     }
 
     return content.replace(/(href|src)=(['"])\/(?!\/)([^"']*)\2/g, (match, attr, quote, path) => {
+      const pathname = path.split(/[?#]/)[0];
       if (
-        path === pathPrefixWithoutLeadingSlash ||
-        path.startsWith(`${pathPrefixWithoutLeadingSlash}/`)
+        pathname === pathPrefixWithoutLeadingSlash ||
+        pathname.startsWith(`${pathPrefixWithoutLeadingSlash}/`)
       ) {
         return `${attr}=${quote}/${path}${quote}`;
       }
