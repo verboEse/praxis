@@ -7,8 +7,6 @@ type: "page"
 slug: "team"
 ---
 
-## Unser Team
-
 Lernen Sie das Team der Kleintierpraxis Versmold kennen.
 
 <p class="gallery-hint">💡 Klicken Sie auf ein Bild für eine vergrößerte Ansicht</p>
