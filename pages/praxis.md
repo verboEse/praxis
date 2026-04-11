@@ -7,8 +7,6 @@ type: "page"
 slug: "praxis"
 ---
 
-## Unsere Praxisräume
-
 Lernen Sie unsere modern ausgestattete Kleintierpraxis kennen. Wir legen großen Wert auf eine angenehme Atmosphäre und modernste medizinische Ausstattung, damit sich Ihre Haustiere bei uns wohlfühlen.
 
 <p class="gallery-hint">💡 Klicken Sie auf ein Bild für eine vergrößerte Ansicht</p>
