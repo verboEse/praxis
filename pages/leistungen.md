@@ -10,10 +10,10 @@ excerpt: "Das von der Kleintierpraxis Versmold abgedeckte Leistungsspektrum ist 
 
 Das von der Kleintierpraxis Versmold abgedeckte Leistungsspektrum ist vielfältig und bietet alle Möglichkeiten der modernen Tiermedizin. Wir sind modern ausgestattet und können Ihnen somit eine Vielzahl von Behandlungsmethoden bieten wie:
 
-*   [Gesundheitsvorsorge](http://kleintierpraxis-versmold.de/leistungen/gesundheitsvorsorge/)
+*   [Gesundheitsvorsorge](/pages/gesundheitsvorsorge/)
 
-*   [Diagnostik](http://kleintierpraxis-versmold.de/leistungen/diagnostik/)
+*   [Diagnostik](/pages/diagnostik/)
 
-*   [Chirurgie](http://kleintierpraxis-versmold.de/leistungen/chirurgie/)
+*   [Chirurgie](/pages/chirurgie/)
 
-*   und [viele weitere Leistungen](http://kleintierpraxis-versmold.de/leistungen/weitere-serviceleistungen/)
+*   und [viele weitere Leistungen](/pages/weitere-serviceleistungen/)
