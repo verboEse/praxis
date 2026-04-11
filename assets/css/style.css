@@ -309,6 +309,15 @@ main {
   color: #333;
 }
 
+.emergency-phone a {
+  color: #8f3131;
+  text-decoration: none;
+}
+
+.emergency-phone a:hover {
+  text-decoration: underline;
+}
+
 .emergency-note {
   text-align: center;
   font-size: 0.85rem;
