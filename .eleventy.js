@@ -1,4 +1,35 @@
 export default function (eleventyConfig) {
+  const configuredPathPrefix = process.env.ELEVENTY_PATH_PREFIX || "/";
+
+  const normalizePathPrefix = (value) => {
+    if (!value || value === "/") return "";
+    const withLeadingSlash = value.startsWith("/") ? value : `/${value}`;
+    return withLeadingSlash.endsWith("/")
+      ? withLeadingSlash.slice(0, -1)
+      : withLeadingSlash;
+  };
+
+  const normalizedPathPrefix = normalizePathPrefix(configuredPathPrefix);
+  const pathPrefixWithoutLeadingSlash = normalizedPathPrefix.replace(/^\//, "");
+
+  // Prefix root-relative links in generated HTML for subpath deployments (e.g. GitHub Pages project sites)
+  eleventyConfig.addTransform("prefix-root-relative-urls", function (content, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html") || !normalizedPathPrefix) {
+      return content;
+    }
+
+    return content.replace(/(href|src)=(['"])\/(?!\/)([^"']*)\2/g, (match, attr, quote, path) => {
+      if (
+        path === pathPrefixWithoutLeadingSlash ||
+        path.startsWith(`${pathPrefixWithoutLeadingSlash}/`)
+      ) {
+        return `${attr}=${quote}/${path}${quote}`;
+      }
+
+      return `${attr}=${quote}${normalizedPathPrefix}/${path}${quote}`;
+    });
+  });
+
   // Copy assets to output
   eleventyConfig.addPassthroughCopy("assets");
 
@@ -64,7 +95,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("assets/js/");
 
   return {
-    pathPrefix: process.env.ELEVENTY_PATH_PREFIX || "/",
+    pathPrefix: configuredPathPrefix,
     dir: {
       input: ".",
       output: "_site",
