@@ -35,6 +35,8 @@ jobs:
 
       - name: Build site
         run: pnpm build
+        env:
+          ELEVENTY_PATH_PREFIX: /praxis/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

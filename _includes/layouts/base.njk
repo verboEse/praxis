@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or site.title }}</title>
   <meta name="description" content="{{ excerpt or site.description }}">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
 </head>
 <body>
   <header class="site-header">
@@ -13,8 +13,8 @@
       <div class="container">
         <div class="header-content">
           <div class="logo-area">
-            <a href="/">
-              <img src="/assets/images/Dreyer-Ciszewski_Logo-Pfote.png" alt="{{ site.title }} Logo" class="logo">
+            <a href="{{ '/' | url }}">
+              <img src="{{ '/assets/images/Dreyer-Ciszewski_Logo-Pfote.png' | url }}" alt="{{ site.title }} Logo" class="logo">
             </a>
             <div class="logo-text">
               <h1 class="site-title">{{ site.title }}</h1>
@@ -27,20 +27,20 @@
           </button>
           <nav id="main-navigation" class="main-navigation">
             <ul class="nav-menu">
-              <li><a href="/">Willkommen</a></li>
-              <li><a href="/pages/team/">Team</a></li>
+              <li><a href="{{ '/' | url }}">Willkommen</a></li>
+              <li><a href="{{ '/pages/team/' | url }}">Team</a></li>
               <li class="has-submenu">
-                <a href="/pages/leistungen/" aria-haspopup="true" aria-expanded="false">Leistungen <span class="submenu-indicator" aria-hidden="true">▾</span></a>
+                <a href="{{ '/pages/leistungen/' | url }}" aria-haspopup="true" aria-expanded="false">Leistungen <span class="submenu-indicator" aria-hidden="true">▾</span></a>
                 <ul class="submenu">
-                  <li><a href="/pages/gesundheitsvorsorge/">Gesundheitsvorsorge</a></li>
-                  <li><a href="/pages/diagnostik/">Diagnostik</a></li>
-                  <li><a href="/pages/chirurgie/">Chirurgie</a></li>
-                  <li><a href="/pages/behandlungsspektrum-medizinische-teilgebiete/">Behandlungsspektrum</a></li>
-                  <li><a href="/pages/weitere-serviceleistungen/">Weitere Serviceleistungen</a></li>
+                  <li><a href="{{ '/pages/gesundheitsvorsorge/' | url }}">Gesundheitsvorsorge</a></li>
+                  <li><a href="{{ '/pages/diagnostik/' | url }}">Diagnostik</a></li>
+                  <li><a href="{{ '/pages/chirurgie/' | url }}">Chirurgie</a></li>
+                  <li><a href="{{ '/pages/behandlungsspektrum-medizinische-teilgebiete/' | url }}">Behandlungsspektrum</a></li>
+                  <li><a href="{{ '/pages/weitere-serviceleistungen/' | url }}">Weitere Serviceleistungen</a></li>
                 </ul>
               </li>
-              <li><a href="/pages/praxis/">Praxis</a></li>
-              <li><a href="/pages/anfahrt/">Anfahrt</a></li>
+              <li><a href="{{ '/pages/praxis/' | url }}">Praxis</a></li>
+              <li><a href="{{ '/pages/anfahrt/' | url }}">Anfahrt</a></li>
             </ul>
           </nav>
         </div>
@@ -54,20 +54,20 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-text">
-          <a href="/pages/impressum/">Impressum</a>
+          <a href="{{ '/pages/impressum/' | url }}">Impressum</a>
           <span class="separator">|</span>
-          <a href="/pages/datenschutzerklaerung/">Datenschutz</a>
+          <a href="{{ '/pages/datenschutzerklaerung/' | url }}">Datenschutz</a>
           <span class="separator">|</span>
           <span>&copy; 2026 {{ site.title }}</span>
         </div>
-        <img src="/assets/images/Dreyer-Ciszewski_Logo-ganz.png" alt="{{ site.title }}" class="footer-logo">
+        <img src="{{ '/assets/images/Dreyer-Ciszewski_Logo-ganz.png' | url }}" alt="{{ site.title }}" class="footer-logo">
       </div>
     </div>
   </footer>
   
-  <script src="/assets/js/carousel.js"></script>
-  <script src="/assets/js/submenu.js"></script>
-  <script src="/assets/js/lightbox.js"></script>
-  <script src="/assets/js/consent.js"></script>
+  <script src="{{ '/assets/js/carousel.js' | url }}"></script>
+  <script src="{{ '/assets/js/submenu.js' | url }}"></script>
+  <script src="{{ '/assets/js/lightbox.js' | url }}"></script>
+  <script src="{{ '/assets/js/consent.js' | url }}"></script>
 </body>
 </html>
