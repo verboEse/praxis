@@ -1,0 +1,39 @@
+name: Monthly publication transition
+
+on:
+  schedule:
+    # Day 1 monthly, 00:05 UTC. Script applies Europe/Berlin month/day gate.
+    - cron: 5 0 1 * *
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish_monthly_post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run monthly transition
+        run: node scripts/monthly-publication-transition.js
+
+      - name: Commit transition changes
+        if: github.event_name == 'schedule'
+        run: |
+          if git diff --quiet; then
+            echo "No publication changes detected"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts/*.md
+          git commit -m "chore: run monthly publication transition"
+          git push

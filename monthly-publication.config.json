@@ -1,0 +1,15 @@
+{
+  "timezone": "Europe/Berlin",
+  "months": {
+    "1": "posts/01-januar.md",
+    "2": "posts/02-februar.md",
+    "3": "posts/03-maerz.md",
+    "4": "posts/04-april.md",
+    "5": "posts/05-mai.md",
+    "6": "posts/06-juni.md",
+    "7": "posts/07-juli.md",
+    "8": "posts/08-august.md",
+    "9": "posts/09-september.md",
+    "12": "posts/12-dezember.md"
+  }
+}
