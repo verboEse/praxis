@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
     "export": "node wordpress-export.js",
     "download-images": "node download-images.js",
+    "monthly:transition": "node scripts/monthly-publication-transition.js",
+    "monthly:transition:dry-run": "node scripts/monthly-publication-transition.js --dry-run --force",
     "start": "eleventy --serve",
     "build": "eleventy",
     "lint": "eslint . --ext .js,.njk,.html",
