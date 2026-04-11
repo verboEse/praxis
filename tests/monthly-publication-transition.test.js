@@ -50,6 +50,15 @@ test("updatePublishedValue changes existing published field", () => {
   assert.equal(readPublishedValue(next), true);
 });
 
+test("updatePublishedValue preserves the original frontmatter separator", () => {
+  const content = `---\ntitle: "X"\npublished: false\n---\n\nBody`;
+
+  const first = updatePublishedValue(content, true);
+  const second = updatePublishedValue(first, false);
+
+  assert.equal(second, `---\ntitle: "X"\npublished: false\n---\n\nBody`);
+});
+
 test("buildTransitionPlan enforces a single active page", () => {
   const states = [
     { path: "posts/04-april.md", published: true },
@@ -59,6 +68,22 @@ test("buildTransitionPlan enforces a single active page", () => {
   assert.equal(plan.updates.length, 2);
   assert.equal(plan.activated, "posts/05-mai.md");
   assert.deepEqual(plan.deactivated, ["posts/04-april.md"]);
+});
+
+test("buildTransitionPlan applies activation before deactivation", () => {
+  const states = [
+    { path: "posts/04-april.md", published: true },
+    { path: "posts/05-mai.md", published: false },
+    { path: "posts/06-juni.md", published: null }
+  ];
+
+  const plan = buildTransitionPlan(states, "posts/05-mai.md");
+
+  assert.deepEqual(plan.updates, [
+    { path: "posts/05-mai.md", from: false, to: true },
+    { path: "posts/04-april.md", from: true, to: false },
+    { path: "posts/06-juni.md", from: null, to: false }
+  ]);
 });
 
 test("runTransition performs idempotent dry-run on same day", () => {

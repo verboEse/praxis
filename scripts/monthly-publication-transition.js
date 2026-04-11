@@ -41,15 +41,17 @@ export function getMonthInTimezone(date, timezone) {
 }
 
 export function parseFrontmatter(content) {
-  const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*\n?/);
+  const match = content.match(/^(---[^\S\r\n]*\r?\n)([\s\S]*?)(\r?\n---)(?=\r?\n|$)/);
   if (!match) {
     throw new Error("Missing YAML frontmatter");
   }
 
   return {
-    frontmatter: match[1],
+    frontmatter: match[2],
     body: content.slice(match[0].length),
-    matchedBlock: match[0]
+    matchedBlock: match[0],
+    openingDelimiter: match[1],
+    closingDelimiter: match[3]
   };
 }
 
@@ -64,7 +66,7 @@ export function readPublishedValue(content) {
 }
 
 export function updatePublishedValue(content, nextPublished) {
-  const { frontmatter, body } = parseFrontmatter(content);
+  const { frontmatter, body, openingDelimiter, closingDelimiter } = parseFrontmatter(content);
   const value = nextPublished ? "true" : "false";
   let nextFrontmatter;
 
@@ -74,7 +76,7 @@ export function updatePublishedValue(content, nextPublished) {
     nextFrontmatter = `${frontmatter}\npublished: ${value}`;
   }
 
-  return `---\n${nextFrontmatter}\n---\n\n${body}`;
+  return `${openingDelimiter}${nextFrontmatter}${closingDelimiter}${body}`;
 }
 
 export function resolveTargetPath(mapping, month) {
@@ -91,21 +93,33 @@ function unique(values) {
 }
 
 export function buildTransitionPlan(fileStates, targetPath) {
-  const updates = [];
+  const activationUpdates = [];
+  const deactivationUpdates = [];
+  const otherUpdates = [];
   const deactivated = [];
   let activated = null;
 
   for (const state of fileStates) {
     const desired = state.path === targetPath;
     if (state.published !== desired) {
-      updates.push({ path: state.path, from: state.published, to: desired });
+      const update = { path: state.path, from: state.published, to: desired };
       if (desired) {
+        activationUpdates.push(update);
         activated = state.path;
       } else if (state.published === true) {
+        deactivationUpdates.push(update);
         deactivated.push(state.path);
+      } else {
+        otherUpdates.push(update);
       }
     }
   }
+
+  const updates = [
+    ...activationUpdates,
+    ...deactivationUpdates,
+    ...otherUpdates
+  ];
 
   const activeAfter = fileStates
     .map((state) => (state.path === targetPath ? true : false))
