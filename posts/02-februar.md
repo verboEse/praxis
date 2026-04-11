@@ -9,7 +9,7 @@ excerpt: "Der Februar steht vor der Tür, und mit ihm kommen nicht nur frostige 
 categories:
   - 10
 featured_media: 227
-published: true
+published: false
 ---
 
 Liebe Tierfreunde in Versmold,
