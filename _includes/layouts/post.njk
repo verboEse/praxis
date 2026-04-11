@@ -26,10 +26,10 @@ layout: layouts/base.njk
       {% if previousPost or nextPost %}
         <div class="nav-links">
           {% if previousPost %}
-            <a href="{{ previousPost.url }}" class="prev">← {{ previousPost.data.title }}</a>
+            <a href="{{ previousPost.url | url }}" class="prev">← {{ previousPost.data.title }}</a>
           {% endif %}
           {% if nextPost %}
-            <a href="{{ nextPost.url }}" class="next">{{ nextPost.data.title }} →</a>
+            <a href="{{ nextPost.url | url }}" class="next">{{ nextPost.data.title }} →</a>
           {% endif %}
         </div>
       {% endif %}
@@ -78,7 +78,7 @@ layout: layouts/base.njk
       <h3>Neueste Beiträge</h3>
       <ul>
         {% for post in collections.posts | reverse | limit(5) %}
-          <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+          <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
