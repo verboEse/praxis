@@ -14,7 +14,7 @@ published: true
 
 ### Wichtige Information zu vereinbarten Terminen
 
-Unsere Praxis arbeitet als Terminsprechstunde. Wenn vereinbarte Termine nicht wahrgenommen oder erst sehr kurzfristig abgesagt werden, bleibt Behandlungszeit frei, die in vielen Fällen auch anderen Tieren hätte helfen können. Deshalb berechnen wir in bestimmten Situationen eine Ausfallgebühr.
+Unsere Praxis arbeitet mit Terminsprechstunde. Wenn vereinbarte Termine nicht wahrgenommen oder erst sehr kurzfristig abgesagt werden, bleibt Behandlungszeit frei, die in vielen Fällen auch anderen Tieren hätte helfen können. Deshalb berechnen wir in bestimmten Situationen eine Ausfallgebühr.
 
 ![Teddy sitzt auf der Rückbank eines Autos und schaut aufmerksam aus dem Fenster.](/assets/images/facebook-ausfallgebuehr-februar-2026.jpg)
 
