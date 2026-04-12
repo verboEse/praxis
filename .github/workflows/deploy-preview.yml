@@ -1,4 +1,4 @@
-name: Deploy April Article Preview to GitHub Pages
+name: Deploy Article Preview to GitHub Pages
 
 on:
   workflow_dispatch:
