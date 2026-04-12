@@ -9,7 +9,7 @@ excerpt: "Mit den ersten warmen Tagen in Versmold beginnt für viele Haustiere d
 categories:
   - 10
 featured_media: 236
-published: true
+published: false
 ---
 
 ### Frühlingserwachen – Wenn Allergien bei Haustieren zum Thema werden
