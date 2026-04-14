@@ -12,6 +12,13 @@ body {
   background-color: #f9f9fa;
 }
 
+:root {
+  --header-logo-height: 80px;
+  --header-vertical-padding: 1.5rem;
+  /* Small visual correction for borders/shadow so sidebar clears the sticky header. */
+  --header-sticky-offset: calc(var(--header-logo-height) + (var(--header-vertical-padding) * 2) + 0.35rem);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -28,7 +35,7 @@ body {
 }
 
 .header-main {
-  padding: 1.5rem 0;
+  padding: var(--header-vertical-padding) 0;
 }
 
 .header-content {
@@ -54,7 +61,7 @@ body {
 }
 
 .logo {
-  height: 80px;
+  height: var(--header-logo-height);
   width: auto;
 }
 
@@ -162,6 +169,7 @@ main {
 .content-wrapper {
   display: grid;
   grid-template-columns: 1fr 350px;
+  align-items: start;
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -175,8 +183,19 @@ main {
 /* Sidebar */
 .sidebar {
   position: sticky;
-  top: 90px;
+  top: var(--header-sticky-offset);
+  padding-top: 2rem;
+  height: fit-content;
   align-self: start;
+}
+
+a[href^="tel:"] {
+  color: #8f3131;
+}
+
+a[href^="tel:"]:hover,
+a[href^="tel:"]:focus {
+  color: #6b2424;
 }
 
 .widget {
@@ -291,8 +310,19 @@ main {
   line-height: 1.6;
 }
 
+.contact-item .contact-text a {
+  color: #8f3131;
+  text-decoration: none;
+}
+
+.contact-item .contact-text a:hover,
+.contact-item .contact-text a:focus {
+  color: #6b2424;
+  text-decoration: underline;
+}
+
 .emergency-widget {
-  background: #f8f9fa;
+  background: white;
   border-left: 4px solid #8f3131;
 }
 
@@ -615,6 +645,30 @@ main {
   line-height: 1.8;
 }
 
+.post-content a,
+.page-content a,
+.post-footer a {
+  color: #8f3131;
+  text-decoration-color: rgba(143, 49, 49, 0.45);
+  text-underline-offset: 2px;
+}
+
+.post-content a:visited,
+.page-content a:visited,
+.post-footer a:visited {
+  color: #8f3131;
+}
+
+.post-content a:hover,
+.post-content a:focus,
+.page-content a:hover,
+.page-content a:focus,
+.post-footer a:hover,
+.post-footer a:focus {
+  color: #6b2424;
+  text-decoration-color: #6b2424;
+}
+
 .post-content img,
 .page-content img {
   max-width: 100%;
@@ -652,8 +706,10 @@ main {
 
 .post-footer {
   margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
+  padding: 1rem 1.25rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafafa;
   color: #666;
   font-size: 0.9rem;
 }
@@ -739,7 +795,7 @@ main {
 }
 
 .btn:hover {
-  background: #5568d3;
+  background: #6b2424;
 }
 
 /* Footer */
@@ -826,6 +882,7 @@ footer {
 
   .sidebar {
     position: static;
+    padding-top: 0;
   }
 
   .carousel-post {
