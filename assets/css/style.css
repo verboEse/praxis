@@ -162,6 +162,7 @@ main {
 .content-wrapper {
   display: grid;
   grid-template-columns: 1fr 350px;
+  align-items: start;
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -175,8 +176,19 @@ main {
 /* Sidebar */
 .sidebar {
   position: sticky;
-  top: 90px;
+  top: 8.35rem;
+  padding-top: 2rem;
+  height: fit-content;
   align-self: start;
+}
+
+a[href^="tel:"] {
+  color: #8f3131;
+}
+
+a[href^="tel:"]:hover,
+a[href^="tel:"]:focus {
+  color: #6b2424;
 }
 
 .widget {
@@ -289,6 +301,17 @@ main {
 .contact-item .contact-text {
   flex: 1;
   line-height: 1.6;
+}
+
+.contact-item .contact-text a {
+  color: #8f3131;
+  text-decoration: none;
+}
+
+.contact-item .contact-text a:hover,
+.contact-item .contact-text a:focus {
+  color: #6b2424;
+  text-decoration: underline;
 }
 
 .emergency-widget {
@@ -852,6 +875,7 @@ footer {
 
   .sidebar {
     position: static;
+    padding-top: 0;
   }
 
   .carousel-post {
