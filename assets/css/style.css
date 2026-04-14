@@ -292,7 +292,7 @@ main {
 }
 
 .emergency-widget {
-  background: #f8f9fa;
+  background: white;
   border-left: 4px solid #8f3131;
 }
 
@@ -652,8 +652,10 @@ main {
 
 .post-footer {
   margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
+  padding: 1rem 1.25rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafafa;
   color: #666;
   font-size: 0.9rem;
 }
