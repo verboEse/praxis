@@ -12,6 +12,13 @@ body {
   background-color: #f9f9fa;
 }
 
+:root {
+  --header-logo-height: 80px;
+  --header-vertical-padding: 1.5rem;
+  /* Small visual correction for borders/shadow so sidebar clears the sticky header. */
+  --header-sticky-offset: calc(var(--header-logo-height) + (var(--header-vertical-padding) * 2) + 0.35rem);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -28,7 +35,7 @@ body {
 }
 
 .header-main {
-  padding: 1.5rem 0;
+  padding: var(--header-vertical-padding) 0;
 }
 
 .header-content {
@@ -54,7 +61,7 @@ body {
 }
 
 .logo {
-  height: 80px;
+  height: var(--header-logo-height);
   width: auto;
 }
 
@@ -176,7 +183,7 @@ main {
 /* Sidebar */
 .sidebar {
   position: sticky;
-  top: 8.35rem;
+  top: var(--header-sticky-offset);
   padding-top: 2rem;
   height: fit-content;
   align-self: start;
