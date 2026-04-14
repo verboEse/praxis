@@ -615,6 +615,30 @@ main {
   line-height: 1.8;
 }
 
+.post-content a,
+.page-content a,
+.post-footer a {
+  color: #8f3131;
+  text-decoration-color: rgba(143, 49, 49, 0.45);
+  text-underline-offset: 2px;
+}
+
+.post-content a:visited,
+.page-content a:visited,
+.post-footer a:visited {
+  color: #8f3131;
+}
+
+.post-content a:hover,
+.post-content a:focus,
+.page-content a:hover,
+.page-content a:focus,
+.post-footer a:hover,
+.post-footer a:focus {
+  color: #6b2424;
+  text-decoration-color: #6b2424;
+}
+
 .post-content img,
 .page-content img {
   max-width: 100%;
@@ -741,7 +765,7 @@ main {
 }
 
 .btn:hover {
-  background: #5568d3;
+  background: #6b2424;
 }
 
 /* Footer */
