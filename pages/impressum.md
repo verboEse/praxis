@@ -62,4 +62,4 @@ Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Fall
 
 ### Webdesign & Webmaster
 
-Layout und Umsetzung dieser Webseite: Jan Dreyer
+Layout und Umsetzung dieser Website: Jan Dreyer
