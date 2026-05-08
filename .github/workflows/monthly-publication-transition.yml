@@ -5,6 +5,15 @@ on:
     # Day 1 monthly, 00:05 UTC. Script applies Europe/Berlin month/day gate.
     - cron: 5 0 1 * *
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Bypass the day-1 gate and run the transition regardless of the current day"
+        type: boolean
+        default: false
+      date:
+        description: "Override the current date for the transition (ISO 8601, e.g. 2025-03-01)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -22,10 +31,14 @@ jobs:
           node-version: 20
 
       - name: Run monthly transition
-        run: node scripts/monthly-publication-transition.js
+        run: |
+          ARGS=()
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS+=(--force); fi
+          if [ -n "${{ inputs.date }}" ]; then ARGS+=(--date="${{ inputs.date }}"); fi
+          node scripts/monthly-publication-transition.js "${ARGS[@]}"
 
       - name: Commit transition changes
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           if git diff --quiet; then
             echo "No publication changes detected"
