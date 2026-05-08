@@ -9,7 +9,7 @@ excerpt: "Der April bringt wärmere Temperaturen, blühende Wiesen und längere 
 categories:
   - 10
 featured_media: 237
-published: true
+published: false
 ---
 
 ### Frühling in Versmold – Zeit für einen aktiven Neustart mit dem Tier

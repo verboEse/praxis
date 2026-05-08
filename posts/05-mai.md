@@ -9,7 +9,7 @@ excerpt: "Der Frühling ist in vollem Gange und lädt zu ausgiebigen Spaziergän
 categories:
   - 10
 featured_media: 145
-published: false
+published: true
 ---
 
 Der Frühling ist in vollem Gange und lädt zu ausgiebigen Spaziergängen und Gartenabenteuer ein. Doch bevor Sie mit Ihrem geliebten Vierbeiner nach draußen gehen, gibt es einiges zu beachten. In diesem Beitrag finden Sie hilfreiche Tipps, um die warme Jahreszeit sicher zu genießen.
