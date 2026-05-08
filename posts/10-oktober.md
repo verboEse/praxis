@@ -4,7 +4,7 @@ date: "2026-10-01T07:55:00.000Z"
 modified: "2026-09-20T20:46:38.000Z"
 status: "publish"
 type: "post"
-slug: "gesund-durch-den-januar-pflegetipps-fuer-katzen-und-hunde"
+slug: "platzhalter-oktober"
 excerpt: "Dieser Artikel ist aktuell nur ein Platzhalter [&hellip;]"
 categories:
   - 10
