@@ -31,10 +31,13 @@ jobs:
           node-version: 20
 
       - name: Run monthly transition
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force || false }}
+          DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.date || '' }}
         run: |
           ARGS=()
-          if [ "${{ inputs.force }}" = "true" ]; then ARGS+=(--force); fi
-          if [ -n "${{ inputs.date }}" ]; then ARGS+=(--date="${{ inputs.date }}"); fi
+          if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
+          if [ -n "$DATE" ]; then ARGS+=(--date="$DATE"); fi
           node scripts/monthly-publication-transition.js "${ARGS[@]}"
 
       - name: Commit transition changes
