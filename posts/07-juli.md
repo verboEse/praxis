@@ -14,7 +14,7 @@ tags:
   - 8
   - 9
 featured_media: 181
-published: false
+published: true
 ---
 
 Willkommen im Juli! Die warmen Sommertage laden uns zu zahlreichen Aktivitäten im Freien ein. Doch wie können wir sicherstellen, dass unsere geliebten Kleintiere, insbesondere Hunde und Katzen, diese Zeit genauso genießen wie wir? Hier sind einige nützliche Tipps und Ratschläge für Tierhalter, um den Sommer sicher und angenehm zu gestalten.
