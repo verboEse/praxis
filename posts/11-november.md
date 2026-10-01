@@ -14,6 +14,15 @@ published: false
 
 Im November werden die Tage merklich kürzer, die Wege nasser und die ersten Nächte frostig. Für Hunde, Katzen, Kaninchen und Meerschweinchen bedeutet das eine Umstellung im Alltag. Mit etwas Vorbereitung lassen sich Spaziergänge, Fütterung und Ruhezeiten gut an die kalte Jahreszeit anpassen.
 
+<!--
+Quellen für die Datumsangaben im Abschnitt "Besondere Tage im November" (abgerufen am 01.10.2026):
+- Weltvegantag am 1. November: The Vegan Society, https://www.vegansociety.com/news/news/world-vegan-day
+- Welt-One-Health-Tag am 3. November: World One Health Day, https://worldonehealthday.org/
+- Martinstag am 11. November: Wikipedia, https://de.wikipedia.org/wiki/Martinstag
+- Europäischer Antibiotikatag am 18. November: European Centre for Disease Prevention and Control, https://antibiotic.ecdc.europa.eu/en
+- Tag der Kinderrechte am 20. November: UNICEF, https://www.unicef.org/world-childrens-day
+-->
+
 ### Besondere Tage im November
 
 Im November gibt es mehrere Anlässe, die auch für Haustierbesitzer interessante Denkanstöße bieten:
