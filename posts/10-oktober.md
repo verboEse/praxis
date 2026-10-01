@@ -9,5 +9,5 @@ excerpt: "Dieser Artikel ist aktuell nur ein Platzhalter [&hellip;]"
 categories:
   - 10
 featured_media: 143
-published: false
+published: true
 ---
