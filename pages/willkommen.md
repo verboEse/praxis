@@ -16,8 +16,8 @@ Haustiere, ob Hunde, Katzen, Mäuse, Hasen, Kaninchen, Meerschweinchen oder Vög
 
 ![Tierarzt mit Hund](/assets/images/pexels-jose-eduardo-lopez-474478-26923889.jpg)
 
-Bitte vereinbaren sie nach Möglichkeit im Vorfeld einen **Termin**, um die Wartezeit für Sie und Ihr Tier so kurz wie möglich zu halten. Kunden ohne vorherige Anmeldung müssen leider mit längeren Wartezeiten rechnen!
+Bitte vereinbaren Sie nach Möglichkeit im Vorfeld einen **Termin**, um die Wartezeit für Sie und Ihr Tier so kurz wie möglich zu halten. Kunden ohne vorherige Anmeldung müssen leider mit längeren Wartezeiten rechnen!
 
-Im **Notfall** und bei schweren Erkrankungen bieten wir **intensive veterinär-medizinische Versorgung** mit der Möglichkeit der stationären Unterbringung in unserer Praxis. Bitte beachten Sie, dass der diensthabende Tierarzt tagsüber normale Sprechzeiten hat und der Nachtdienst eine zusätzliche Belastung ist. Probleme, die am Tag geklärt werden können, sollten nicht in die Nachtstunden verschoben werden. Im Notdienst kommt mindestens der 2-fache Satz der GOT (Gebührenordnung für Tierärzte) zur Anwendung.
+Im **Notfall** und bei schweren Erkrankungen bieten wir **intensive veterinärmedizinische Versorgung** mit der Möglichkeit der stationären Unterbringung in unserer Praxis. Bitte beachten Sie, dass der diensthabende Tierarzt tagsüber normale Sprechzeiten hat und der Nachtdienst eine zusätzliche Belastung ist. Probleme, die am Tag geklärt werden können, sollten nicht in die Nachtstunden verschoben werden. Im Notdienst kommt mindestens der 2-fache Satz der GOT (Gebührenordnung für Tierärzte) zur Anwendung.
 
 Gerne beraten wir Sie auch, wenn Sie sich einen **Welpen** anschaffen wollen, oder dies bereits getan haben, wenn es um die ausgewogene **Ernährung** Ihres schon älteren Haustieres geht oder aber bei **Verhaltensauffälligkeiten**. Sprechen Sie uns an!
