@@ -9,7 +9,7 @@ excerpt: "Kürzere Tage, nasses Laub und Halloween: Mit diesen Tipps kommen Hund
 categories:
   - 10
 featured_media: 143
-published: true
+published: false
 ---
 
 Der Oktober bringt bunte Blätter, kühlere Tage und deutlich längere Abende. Für Hunde, Katzen, Kaninchen und Meerschweinchen verändert sich damit einiges im Alltag. Mit ein paar einfachen Vorsichtsmaßnahmen können Sie die Herbstzeit gemeinsam genießen und typische Gefahren vermeiden.
